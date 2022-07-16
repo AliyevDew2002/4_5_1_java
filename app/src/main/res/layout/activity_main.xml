@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="130dp"
+            android:text="UserID:"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="130dp"
+            android:text="UserPW:"
+            android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical">
+
+        <EditText
+            android:id="@+id/et_user_id"
+            android:layout_marginLeft="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID" />
+
+        <EditText
+            android:id="@+id/et_user_pw"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="85dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="pw" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical">
+
+        <Button
+            android:id="@+id/b_login_id"
+            android:layout_marginTop="200dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
